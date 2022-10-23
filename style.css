@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #3182CE;
+    height: 50px;
+    align-items: center;
+    
+}
+.logo img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 25px;
+    
+}
+.main{
+    width: 100%;
+    height:100vh;
+    background-image:url("images/R.jfif");
+    background-size:100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main h1{
+    color:#0008C1 ;
+    font-size: 60px;
+}
+.whats{
+    color: green;
+    text-decoration: none;
+}
+.profile{
+    width: 100%;
+    height: 100vh;
+    background-color: #2b6cb0;
+    background-size: 100% 100%;
+    
+}
+.profile .title{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+   
+}
+.car{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+.money{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.bolt{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.container i{
+    color: #276A9A;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.container h1{
+    color:#276A9A ;
+    margin-top: 15px;
+}
+.container p{
+    line-height: 1.5;
+    color: #777;
+    margin-top: 10px;
+}
+.year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.year img{
+    margin-top: 20px;
+}
+.fridge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.contact1{
+    background-color: #276A9A;
+    width: 100%;
+    height: 300px;
+    
+}
+.contact1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp{
+    margin: 50px;
+    
+}
+.whatsapp i{
+    color: green;
+    font-size: 50px;
+}
+.whatsapp p{
+    color: white;
+    margin-top: 10px;
+}
+.facebook{
+    margin: 45px;
+}
+.facebook i{
+    color: #0008C1;
+    font-size:50px ;
+}
+.facebook a{
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
