@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 nav{
     display: flex;
     width: 100%;
@@ -11,6 +14,17 @@ nav{
     height: 50px;
     align-items: center;
     
+}
+@media (max-width: 576px){
+    nav{
+        height: 150px;
+    }
+    .links a{
+        display: block;
+        width: 100%;
+       
+        
+   }
 }
 .logo img{
     border-radius: 50%;
@@ -35,12 +49,15 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 
 }
 
 .main h1{
     color:#0008C1 ;
     font-size: 60px;
+    
+    
 }
 .whats{
     color: green;
@@ -53,6 +70,50 @@ nav{
     background-size: 100% 100%;
     
 }
+   @media (max-width: 576px){
+    .profile .container{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+   }
+   .profile{
+    height: 140vh;
+    
+   }
+   .container{
+    width: auto;
+   }
+}
+@media (max-width: 768px){
+    .profile .container{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+   }
+   .profile{
+    height: 150vh;
+    
+   }
+   .container{
+    width: auto;
+   }
+
+
+
+}
+@media (max-width: 991px){
+    .container{
+        width: auto;
+       }
+
+}
+
 .profile .title{
     color: white;
     text-align: center;
@@ -64,6 +125,7 @@ nav{
     margin: 50px;
     justify-content: space-around;
     margin-top: 150px;
+    
     
    
 }
@@ -114,6 +176,26 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+@media (max-width: 576px){
+    .year{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+@media (max-width: 768px){
+    .year{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+   }
+}
 .year img{
     margin-top: 20px;
 }
@@ -122,6 +204,30 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 5px;
+    
+}
+.fridge img{
+    margin-left: -160px;
+}
+@media (max-width: 576px){
+    .fridge{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+@media (max-width: 768px){
+    .fridge{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+   }
 }
 .contact1{
     background-color: #276A9A;
@@ -143,10 +249,11 @@ nav{
 .whatsapp{
     margin: 50px;
     
+    
 }
 .whatsapp i{
     color: green;
-    font-size: 50px;
+    font-size: 55px;
 }
 .whatsapp p{
     color: white;
@@ -154,6 +261,7 @@ nav{
 }
 .facebook{
     margin: 45px;
+    margin-top: -1px;
 }
 .facebook i{
     color: #0008C1;
@@ -164,6 +272,7 @@ nav{
     color: white;
     margin-top: 30px;
 }
+
 
 
 
